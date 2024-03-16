@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    height: 100vh;
+    background-image: url('../../../assets/images/footer-bg.png');
+    
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    /* text-align: center; */
+}
+
+.sidebar li {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #555;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.widget:nth-child(1) {
+    flex: 1;
+}
+
+
+.widget {
+    flex: 4;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.widget h3 {
+    color: #333;
+}
+
+.widget p {
+    color: #888;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#formMessage {
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+
+/* User */
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.editBtn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #37bd37;
+}
+
+.deleteBtn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ff7070;
+}
+
+.editBtn:hover {
+    background-color: #37bd37;
+} 
+
+
+
+.deleteBtn:hover {
+    background-color: #ff7070;
+}
